@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class UserInteraction {
+public class Main {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         BufferedReader bufferedReader = new BufferedReader(new FileReader("Movies.txt"));
